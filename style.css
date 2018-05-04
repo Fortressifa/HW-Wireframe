@@ -9,6 +9,7 @@ background-color: rgb(210, 205, 255)
 }
 
 .header {
+    border: 1px
     background-color: blanchedalmond
     color: black
     padding: 100px
@@ -33,7 +34,7 @@ background-color: rgb(210, 205, 255)
     padding: 100px
 }
 
-.h1m h2, h3 {
+.h1, h2, h3 {
     background-color: rgb(205, 213, 255)
     color: black
     padding: 100px
