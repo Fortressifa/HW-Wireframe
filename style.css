@@ -1,62 +1,87 @@
 
-/* p {color: red;} */
 
-/* div {background-color: aqua} */
 
-.background {
-background-color: rgb(210, 205, 255)
-    padding: 100px
+
+
+#header {
+    text-align: center;
+    background-color:red;
+    color: black;
+    padding: 25px;
+    margin: 5px 100px;
 }
 
-.header {
-    border: 1px
-    background-color: blanchedalmond
-    color: black
-    padding: 100px
+#nav {
+    text-align: center;
+    background-color: orange;
+    color: black;
+    padding: 25px;
+    margin: 5px 100px;
 }
 
 
-.nav {
-    background-color: rgb(205, 255, 212)
-    color: black
-    padding: 100px
-
-
-.section {
-    background-color: rgb(205, 239, 255)
-    color: black
-    padding: 100px
+#section {
+    text-align: center;
+    width: 40%;
+    float: left;
+    background-color: green;
+    color: black;
+    padding: 75px;
+    margin: 10px 5px 10px 100px;
+    box-sizing: border-box
 }
 
-.article {
-    background-color: rgb(205, 239, 255)
-    color: black
-    padding: 100px
+#aside {
+    text-align: center;
+    width: 40%;
+    float: right;
+    background-color: pink;
+    color: black;
+    padding: 75px;
+    margin: 10px 100px 10px 5px;
+    box-sizing: border-box
+    
 }
 
-.h1, h2, h3 {
-    background-color: rgb(205, 213, 255)
-    color: black
-    padding: 100px
+
+#article {
+    text-align: center;
+    background-color: yellow;
+    color: black;
+    padding: 50px;
+    margin:50px 410px 10px 110px;
+    position: absolute;
+    z-index: 1;
+}
+#h1 {
+    text-align: center;
+    background-color: blue;
+    color: black;
+    padding: 32px;
+    margin: 90px 0px 20px 115px;
+    position: absolute;
+    z-index: 2;
 }
 
-.p {
-    background-color: rgb(255, 205, 205)
-    color: red
-    padding: 100px
-    border: 2px solid powderblue;
-}
 
-.aside {
-    background-color: rgb(255, 205, 240)
-    color: black
-    padding: 100px
-}
+#p {
+    text-align: center;
+    background-color: cyan;
+    color: black;
+    padding: 60px;
+    margin: 150px 10px 100px 115px;
+    position: absolute;
+    z-index: 2;
+} 
 
-.footer {
-    background-color: rgb(238, 255, 205)
-    color: black
-    padding: 100px
+
+
+#footer {
+    text-align: center;
+    background-color: brown;
+    color: black;
+    padding: 25px;
+    margin: 225px 100px 25px 100px;
 }
 
 
